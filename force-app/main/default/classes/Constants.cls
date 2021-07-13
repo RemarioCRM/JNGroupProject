@@ -2,7 +2,7 @@
  * @description       : Global constants
  * @author            : Remario Richards
  * @group             :
- * @last modified on  : 07-06-2021
+ * @last modified on  : 07-13-2021
  * @last modified by  : Ishwari Gaikwad(Thinqloud)
  * Modifications Log
  * Ver   Date         Author             Modification
@@ -218,4 +218,11 @@ public class Constants {
 
   public static final String EXTERNAL = 'External';
   public static final String GENERIC_ERROR_EVENT = 'JNGroup.OneJN.CreditInfo.Domain.Events.GenericErrorEvent';
+
+  public static final String SUBMIT_PROFILE_EVENT_1 = 'JNGroup.OneJN.Account.Domain.Events.Account.AccountCreateEvent';
+  public static final String SUBMIT_PROFILE_EVENT_2 = 'JNGroup.OneJN.Account.Domain.Events.Account.AccountTermAndConditionEvent';
+  public static final String SUBMIT_PROFILE_EVENT_3 = 'JNGroup.OneJN.Account.Domain.Events.Account.AccountUpdateIdentificationEvent';
+  public static final String SUBMIT_PROFILE_EVENT_4 = 'JNGroup.OneJN.Account.Domain.Events.Account.AccountUpdateIdentificationFinishEvent';
+  public static final String SUBMIT_PROFILE_EVENT_5 = 'JNGroup.OneJN.Account.Domain.Events.Account.AccountProfileConfirmedEvent';
+
 }
